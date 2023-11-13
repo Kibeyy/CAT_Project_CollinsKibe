@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Permanent+Marker&family=Satisfy&display=swap');
+header{
+    background: url(https://cdn.pixabay.com/photo/2023/10/27/09/24/mountains-8344601_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+#ABOUT ,#EDUCATION{
+    font-family: 'Agbalumo'; 
+    
+}
+#INTRO{
+    text-align: left;
+    padding: 30%;
+    padding-left: 10%;
+    padding-top: 10%;
+    font-size: xx-large;
+    font-family: Yeseva One;
+    
+}
+#bio :hover{
+    color: blue;
+}
+#SOCIALS {
+    display: flex;
+    justify-content: left;
+    list-style-type: none;
+    gap: 0.3rem; /* Adjust this value to decrease the space */
+    color: black;
+    
+}
+
+#SOCIALS :hover{
+    color: blue;
+}
+#SOCIALS ul{
+    list-style-type: none;
+}
+
+#ABOUT{
+    
+    padding: 25%;
+    
+    background-color: blue;
+    font-size: larger;
+    background: url(https://cdn.pixabay.com/photo/2023/10/18/00/59/mountain-8322610_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#EDUCATION{
+    text-align: center;
+    padding: 20%;
+    background: url(https://cdn.pixabay.com/photo/2023/10/13/14/39/book-8312948_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: ghostwhite;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#NAV {
+    display: flex;
+    justify-content: space-around; /* Horizontally center the navigation menu */
+    align-items: center; /* Vertically center the navigation menu */
+    padding-top: 5%;
+    font-family: Roboto Slab;
+}
+
+#NAV ul {
+    list-style: none; /* Remove list bullets */
+    display: flex;
+    gap: 4.5em;
+    align-items: center;
+}
+
+#NAV li {
+    text-align: center;
+}
+
+#NAV a {
+    text-decoration: none;
+    color: inherit;
+}
+#NAV :hover{
+    color: blue;
+}
+
+#desc{
+    font-size: medium;
+}
+#SOCIALSTOP{
+    padding: 0 0.5rem;
+    margin: 0;
+    font-size: 24px;
+    color: rgb(35, 35 , 35);
+    gap: 1em;
+}
+.logo{
+        height: 75px;
+        border-radius: 50px;
+    
+}
+#footer{
+    background-color: brown;
+}
+#hire:link, #hire:visited{
+    font-size: 16px;
+    font-weight: 200;
+    background-color: #2b36f4;
+    color: #f6f6f6;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border-radius: 90px;
+}
