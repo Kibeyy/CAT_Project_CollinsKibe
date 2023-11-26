@@ -4,6 +4,7 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 *{
     margin: 0;
     padding: 0;
@@ -25,6 +26,16 @@ header{
 }
 #bio :hover{
     color: blue;
+}
+#bio{
+    animation-name: anime1;
+    animation-duration: 3s;
+    animation-timing-function: ease-out;
+    
+}
+@keyframes anime1 {
+    0%{font-size: 0%;}
+    
 }
 #SOCIALS {
     display: flex;
@@ -89,8 +100,12 @@ header{
     text-decoration: none;
     color: inherit;
 }
-#NAV :hover{
+#SOCIALSTOP :hover{
     color: blue;
+}
+.btns ul :hover{
+  color: blue;
+
 }
 
 #desc{
@@ -120,6 +135,11 @@ header{
     padding: 1rem 2rem;
     border-radius: 90px;
 }
+#hire:hover{
+    border-style: solid;
+    border-color: red;
+
+}
 /* For screens smaller than 768px (typical smartphones) */
 @media (max-width: 768px) {
     /* Adjust your styles for smaller screens here */
@@ -129,4 +149,89 @@ header{
 @media (min-width: 769px) and (max-width: 1024px) {
     /* Adjust your styles for tablets here */
   }
-  
+.container{
+  background-color: #ffffff4d;
+  padding: 2rem;
+  border-radius: 20px;
+}
+.btns ul li{
+  font-weight: bold;
+}
+html{
+    scroll-behavior: smooth;
+}
+#footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.footer-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.footer-section p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.footer-social {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-social li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer-social ion-icon {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#names {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.footer-bottom ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-bottom ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+link[rel="shortcut icon"] {
+    border-radius: 50%;
+}
