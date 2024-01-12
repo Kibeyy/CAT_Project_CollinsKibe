@@ -295,19 +295,28 @@ link[rel="shortcut icon"] {
 ::-webkit-scrollbar-thumb:hover{
     background: linear-gradient(transparent,aqua);
 }
-#scrBtn{
+#scrBtn {
     font-weight: bolder;
     position: fixed;
     bottom: 20px;
     right: 20px;
     background-color: #949090;
-    padding: 2%;
-    border-radius: 50%;
-    opacity: 40%;
+    padding: 10px; /* Use an absolute value for padding */
+    border-radius: 10px; /* Use an absolute value for border-radius */
+    opacity: 80%; /* Adjust the default opacity */
     cursor: pointer;
     border: none;
+    transition: opacity 0.3s ease; /* Add a smooth opacity transition */
 
+    /* New styles for screens with a maximum width of 768px */
+    @media (max-width: 768px) {
+        bottom: 10px;
+        right: 10px;
+        padding: 8px;
+        border-radius: 8px;
+    }
 }
-#scrBtn:hover{
+
+#scrBtn:hover {
     opacity: 100%;
 }
